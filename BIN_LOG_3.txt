@@ -1,0 +1,741 @@
+Threads: 16
+
+Crop = 100 x 100
+
+w=3
+  Tanh-fast:     0.00206524 s
+  Proposed-fast: 0.000331761 s
+  Otsu-fast: 2.23794e-05s
+  Sauvola:       4.49032e-05 s
+  Niblack:       5.56686e-05 s
+  Bernsen:       8.3114e-05 s
+
+w=7
+  Tanh-fast:     5.47789e-05 s
+  Proposed-fast: 3.18859e-05 s
+  Otsu-fast: 2.5628e-05s
+  Sauvola:       5.25457e-05 s
+  Niblack:       6.00518e-05 s
+  Bernsen:       4.33045e-05 s
+
+w=11
+  Tanh-fast:     5.79994e-05 s
+  Proposed-fast: 3.14982e-05 s
+  Otsu-fast: 2.04835e-05s
+  Sauvola:       8.80142e-05 s
+  Niblack:       8.38802e-05 s
+  Bernsen:       0.000101962 s
+
+w=15
+  Tanh-fast:     5.35388e-05 s
+  Proposed-fast: 3.10518e-05 s
+  Otsu-fast: 2.0399e-05s
+  Sauvola:       0.000160729 s
+  Niblack:       0.00018947 s
+  Bernsen:       0.000192582 s
+
+w=19
+  Tanh-fast:     4.92414e-05 s
+  Proposed-fast: 3.26599e-05 s
+  Otsu-fast: 9.69537e-05s
+  Sauvola:       0.000257547 s
+  Niblack:       0.000244142 s
+  Bernsen:       0.00029414 s
+
+w=23
+  Tanh-fast:     5.27574e-05 s
+  Proposed-fast: 2.95575e-05 s
+  Otsu-fast: 3.85443e-05s
+  Sauvola:       0.000350157 s
+  Niblack:       0.000359353 s
+  Bernsen:       0.00041457 s
+
+w=27
+  Tanh-fast:     5.19951e-05 s
+  Proposed-fast: 2.98762e-05 s
+  Otsu-fast: 2.80649e-05s
+  Sauvola:       0.00043234 s
+  Niblack:       0.000481362 s
+  Bernsen:       0.000548325 s
+
+w=31
+  Tanh-fast:     5.97371e-05 s
+  Proposed-fast: 3.48722e-05 s
+  Otsu-fast: 1.9663e-05s
+  Sauvola:       0.000552605 s
+  Niblack:       0.000567561 s
+  Bernsen:       0.000633594 s
+
+w=35
+  Tanh-fast:     5.297e-05 s
+  Proposed-fast: 3.15981e-05 s
+  Otsu-fast: 8.99948e-05s
+  Sauvola:       0.000705841 s
+  Niblack:       0.000684738 s
+  Bernsen:       0.000866587 s
+
+Crop = 250 x 250
+
+w=3
+  Tanh-fast:     0.000446903 s
+  Proposed-fast: 0.000231318 s
+  Otsu-fast: 9.60453e-05s
+  Sauvola:       0.000124377 s
+  Niblack:       0.00011008 s
+  Bernsen:       0.00010447 s
+
+w=7
+  Tanh-fast:     0.000444075 s
+  Proposed-fast: 0.000244487 s
+  Otsu-fast: 7.48167e-05s
+  Sauvola:       0.000275237 s
+  Niblack:       0.000329969 s
+  Bernsen:       0.000256533 s
+
+w=11
+  Tanh-fast:     0.00038745 s
+  Proposed-fast: 0.000223915 s
+  Otsu-fast: 7.58139e-05s
+  Sauvola:       0.00057676 s
+  Niblack:       0.000552787 s
+  Bernsen:       0.000667939 s
+
+w=15
+  Tanh-fast:     0.000378908 s
+  Proposed-fast: 0.000231147 s
+  Otsu-fast: 9.43731e-05s
+  Sauvola:       0.00105394 s
+  Niblack:       0.00115923 s
+  Bernsen:       0.00117325 s
+
+w=19
+  Tanh-fast:     0.00041947 s
+  Proposed-fast: 0.000245213 s
+  Otsu-fast: 8.01767e-05s
+  Sauvola:       0.0015083 s
+  Niblack:       0.0015263 s
+  Bernsen:       0.00186603 s
+
+w=23
+  Tanh-fast:     0.000389582 s
+  Proposed-fast: 0.000239663 s
+  Otsu-fast: 8.04392e-05s
+  Sauvola:       0.00223048 s
+  Niblack:       0.00229022 s
+  Bernsen:       0.00254579 s
+
+w=27
+  Tanh-fast:     0.000395107 s
+  Proposed-fast: 0.000241626 s
+  Otsu-fast: 9.99946e-05s
+  Sauvola:       0.00298866 s
+  Niblack:       0.00323783 s
+  Bernsen:       0.00320983 s
+
+w=31
+  Tanh-fast:     0.000399552 s
+  Proposed-fast: 0.000229623 s
+  Otsu-fast: 7.83987e-05s
+  Sauvola:       0.00386655 s
+  Niblack:       0.00399559 s
+  Bernsen:       0.00393335 s
+
+w=35
+  Tanh-fast:     0.000401449 s
+  Proposed-fast: 0.000231367 s
+  Otsu-fast: 0.000122544s
+  Sauvola:       0.00484597 s
+  Niblack:       0.00476877 s
+  Bernsen:       0.00597439 s
+
+Crop = 500 x 500
+
+w=3
+  Tanh-fast:     0.0016463 s
+  Proposed-fast: 0.000905838 s
+  Otsu-fast: 0.000364785s
+  Sauvola:       0.000499944 s
+  Niblack:       0.000449538 s
+  Bernsen:       0.000430946 s
+
+w=7
+  Tanh-fast:     0.00152165 s
+  Proposed-fast: 0.000874465 s
+  Otsu-fast: 0.000301756s
+  Sauvola:       0.0011749 s
+  Niblack:       0.00105869 s
+  Bernsen:       0.00102311 s
+
+w=11
+  Tanh-fast:     0.00151417 s
+  Proposed-fast: 0.000939164 s
+  Otsu-fast: 0.000694525s
+  Sauvola:       0.00231175 s
+  Niblack:       0.00220842 s
+  Bernsen:       0.00245317 s
+
+w=15
+  Tanh-fast:     0.00152157 s
+  Proposed-fast: 0.000876115 s
+  Otsu-fast: 0.000389664s
+  Sauvola:       0.00394674 s
+  Niblack:       0.00380978 s
+  Bernsen:       0.00453548 s
+
+w=19
+  Tanh-fast:     0.00150405 s
+  Proposed-fast: 0.000865887 s
+  Otsu-fast: 0.000402325s
+  Sauvola:       0.00613811 s
+  Niblack:       0.0061062 s
+  Bernsen:       0.00731981 s
+
+w=23
+  Tanh-fast:     0.00153984 s
+  Proposed-fast: 0.000957379 s
+  Otsu-fast: 0.000323947s
+  Sauvola:       0.00942791 s
+  Niblack:       0.00904454 s
+  Bernsen:       0.00992458 s
+
+w=27
+  Tanh-fast:     0.00182683 s
+  Proposed-fast: 0.00148637 s
+  Otsu-fast: 0.00101721s
+  Sauvola:       0.0136113 s
+  Niblack:       0.0134105 s
+  Bernsen:       0.0134986 s
+
+w=31
+  Tanh-fast:     0.00295754 s
+  Proposed-fast: 0.00159741 s
+  Otsu-fast: 0.00219283s
+  Sauvola:       0.0155713 s
+  Niblack:       0.0163867 s
+  Bernsen:       0.0175902 s
+
+w=35
+  Tanh-fast:     0.0020175 s
+  Proposed-fast: 0.00148929 s
+  Otsu-fast: 0.000868076s
+  Sauvola:       0.0205983 s
+  Niblack:       0.0208242 s
+  Bernsen:       0.0236539 s
+
+Crop = 1000 x 1000
+
+w=3
+  Tanh-fast:     0.00880849 s
+  Proposed-fast: 0.0058364 s
+  Otsu-fast: 0.0019679s
+  Sauvola:       0.00262961 s
+  Niblack:       0.00219039 s
+  Bernsen:       0.00256834 s
+
+w=7
+  Tanh-fast:     0.00790051 s
+  Proposed-fast: 0.00469363 s
+  Otsu-fast: 0.00182678s
+  Sauvola:       0.00551117 s
+  Niblack:       0.0049161 s
+  Bernsen:       0.00464263 s
+
+w=11
+  Tanh-fast:     0.0076053 s
+  Proposed-fast: 0.00438377 s
+  Otsu-fast: 0.00136781s
+  Sauvola:       0.00981 s
+  Niblack:       0.00928535 s
+  Bernsen:       0.0105112 s
+
+w=15
+  Tanh-fast:     0.0101633 s
+  Proposed-fast: 0.00658571 s
+  Otsu-fast: 0.00310234s
+  Sauvola:       0.0181893 s
+  Niblack:       0.0181702 s
+  Bernsen:       0.0204551 s
+
+w=19
+  Tanh-fast:     0.00878565 s
+  Proposed-fast: 0.00552983 s
+  Otsu-fast: 0.00238967s
+  Sauvola:       0.0252351 s
+  Niblack:       0.0242324 s
+  Bernsen:       0.0284329 s
+
+w=23
+  Tanh-fast:     0.0077717 s
+  Proposed-fast: 0.0050439 s
+  Otsu-fast: 0.00199653s
+  Sauvola:       0.0377109 s
+  Niblack:       0.0378875 s
+  Bernsen:       0.0403789 s
+
+w=27
+  Tanh-fast:     0.00699285 s
+  Proposed-fast: 0.00497245 s
+  Otsu-fast: 0.00234461s
+  Sauvola:       0.0494788 s
+  Niblack:       0.0498326 s
+  Bernsen:       0.0524927 s
+
+w=31
+  Tanh-fast:     0.00774329 s
+  Proposed-fast: 0.00542753 s
+  Otsu-fast: 0.00187143s
+  Sauvola:       0.0619191 s
+  Niblack:       0.0609703 s
+  Bernsen:       0.0623833 s
+
+w=35
+  Tanh-fast:     0.00740804 s
+  Proposed-fast: 0.00427206 s
+  Otsu-fast: 0.00136056s
+  Sauvola:       0.0753419 s
+  Niblack:       0.075252 s
+  Bernsen:       0.0915568 s
+
+Crop = 1500 x 1500
+
+w=3
+  Tanh-fast:     0.0176008 s
+  Proposed-fast: 0.0114956 s
+  Otsu-fast: 0.00326109s
+  Sauvola:       0.0049511 s
+  Niblack:       0.00466693 s
+  Bernsen:       0.00406426 s
+
+w=7
+  Tanh-fast:     0.0163116 s
+  Proposed-fast: 0.0116545 s
+  Otsu-fast: 0.00326542s
+  Sauvola:       0.0107718 s
+  Niblack:       0.010214 s
+  Bernsen:       0.00929905 s
+
+w=11
+  Tanh-fast:     0.0168903 s
+  Proposed-fast: 0.011938 s
+  Otsu-fast: 0.00343954s
+  Sauvola:       0.0219934 s
+  Niblack:       0.0208465 s
+  Bernsen:       0.0220057 s
+
+w=15
+  Tanh-fast:     0.0169802 s
+  Proposed-fast: 0.0113713 s
+  Otsu-fast: 0.00415442s
+  Sauvola:       0.0374331 s
+  Niblack:       0.0362163 s
+  Bernsen:       0.0412137 s
+
+w=19
+  Tanh-fast:     0.0182667 s
+  Proposed-fast: 0.0118255 s
+  Otsu-fast: 0.00430176s
+  Sauvola:       0.0548203 s
+  Niblack:       0.054034 s
+  Bernsen:       0.0633493 s
+
+w=23
+  Tanh-fast:     0.0171217 s
+  Proposed-fast: 0.0134508 s
+  Otsu-fast: 0.00429396s
+  Sauvola:       0.0774651 s
+  Niblack:       0.0782143 s
+  Bernsen:       0.0892565 s
+
+w=27
+  Tanh-fast:     0.0166209 s
+  Proposed-fast: 0.0120833 s
+  Otsu-fast: 0.0037685s
+  Sauvola:       0.101664 s
+  Niblack:       0.102079 s
+  Bernsen:       0.113124 s
+
+w=31
+  Tanh-fast:     0.0166046 s
+  Proposed-fast: 0.0121828 s
+  Otsu-fast: 0.00434544s
+  Sauvola:       0.131724 s
+  Niblack:       0.132668 s
+  Bernsen:       0.140708 s
+
+w=35
+  Tanh-fast:     0.0183041 s
+  Proposed-fast: 0.0134572 s
+  Otsu-fast: 0.00453677s
+  Sauvola:       0.166567 s
+  Niblack:       0.168209 s
+  Bernsen:       0.210444 s
+
+Crop = 2000 x 2000
+
+w=3
+  Tanh-fast:     0.0306972 s
+  Proposed-fast: 0.021948 s
+  Otsu-fast: 0.00734437s
+  Sauvola:       0.00911523 s
+  Niblack:       0.0086941 s
+  Bernsen:       0.00802774 s
+
+w=7
+  Tanh-fast:     0.0297823 s
+  Proposed-fast: 0.0209683 s
+  Otsu-fast: 0.00730529s
+  Sauvola:       0.0194249 s
+  Niblack:       0.0184051 s
+  Bernsen:       0.0170849 s
+
+w=11
+  Tanh-fast:     0.0307002 s
+  Proposed-fast: 0.0229602 s
+  Otsu-fast: 0.00937336s
+  Sauvola:       0.0403988 s
+  Niblack:       0.0384377 s
+  Bernsen:       0.040951 s
+
+w=15
+  Tanh-fast:     0.0300716 s
+  Proposed-fast: 0.0227172 s
+  Otsu-fast: 0.00939741s
+  Sauvola:       0.0628425 s
+  Niblack:       0.0634602 s
+  Bernsen:       0.0742281 s
+
+w=19
+  Tanh-fast:     0.0299466 s
+  Proposed-fast: 0.0229724 s
+  Otsu-fast: 0.00940367s
+  Sauvola:       0.0932606 s
+  Niblack:       0.0929305 s
+  Bernsen:       0.114649 s
+
+w=23
+  Tanh-fast:     0.0296569 s
+  Proposed-fast: 0.0222561 s
+  Otsu-fast: 0.0079459s
+  Sauvola:       0.133077 s
+  Niblack:       0.132851 s
+  Bernsen:       0.159037 s
+
+w=27
+  Tanh-fast:     0.0294538 s
+  Proposed-fast: 0.0225449 s
+  Otsu-fast: 0.00902618s
+  Sauvola:       0.176283 s
+  Niblack:       0.178582 s
+  Bernsen:       0.203381 s
+
+w=31
+  Tanh-fast:     0.0294423 s
+  Proposed-fast: 0.0224496 s
+  Otsu-fast: 0.00821089s
+  Sauvola:       0.229361 s
+  Niblack:       0.230608 s
+  Bernsen:       0.253234 s
+
+w=35
+  Tanh-fast:     0.0287222 s
+  Proposed-fast: 0.0227972 s
+  Otsu-fast: 0.00971618s
+  Sauvola:       0.28679 s
+  Niblack:       0.287387 s
+  Bernsen:       0.36448 s
+
+Crop = 2500 x 2500
+
+w=3
+  Tanh-fast:     0.0485141 s
+  Proposed-fast: 0.0340128 s
+  Otsu-fast: 0.0120385s
+  Sauvola:       0.0150459 s
+  Niblack:       0.0132963 s
+  Bernsen:       0.0125461 s
+
+w=7
+  Tanh-fast:     0.0457831 s
+  Proposed-fast: 0.0332459 s
+  Otsu-fast: 0.0129036s
+  Sauvola:       0.0305484 s
+  Niblack:       0.0292248 s
+  Bernsen:       0.026642 s
+
+w=11
+  Tanh-fast:     0.0479589 s
+  Proposed-fast: 0.0333304 s
+  Otsu-fast: 0.0130206s
+  Sauvola:       0.056921 s
+  Niblack:       0.0566123 s
+  Bernsen:       0.062388 s
+
+w=15
+  Tanh-fast:     0.0464309 s
+  Proposed-fast: 0.0336088 s
+  Otsu-fast: 0.0121109s
+  Sauvola:       0.0940017 s
+  Niblack:       0.0943594 s
+  Bernsen:       0.113295 s
+
+w=19
+  Tanh-fast:     0.0453992 s
+  Proposed-fast: 0.0337541 s
+  Otsu-fast: 0.0138434s
+  Sauvola:       0.139093 s
+  Niblack:       0.139735 s
+  Bernsen:       0.176869 s
+
+w=23
+  Tanh-fast:     0.0467608 s
+  Proposed-fast: 0.0350284 s
+  Otsu-fast: 0.0145071s
+  Sauvola:       0.21075 s
+  Niblack:       0.209994 s
+  Bernsen:       0.254495 s
+
+w=27
+  Tanh-fast:     0.0464511 s
+  Proposed-fast: 0.0365712 s
+  Otsu-fast: 0.0146943s
+  Sauvola:       0.279082 s
+  Niblack:       0.277958 s
+  Bernsen:       0.328075 s
+
+w=31
+  Tanh-fast:     0.0438305 s
+  Proposed-fast: 0.0353066 s
+  Otsu-fast: 0.0121211s
+  Sauvola:       0.350815 s
+  Niblack:       0.351877 s
+  Bernsen:       0.392711 s
+
+w=35
+  Tanh-fast:     0.0466109 s
+  Proposed-fast: 0.0350048 s
+  Otsu-fast: 0.0165803s
+  Sauvola:       0.47193 s
+  Niblack:       0.473728 s
+  Bernsen:       0.598425 s
+
+Crop = 3000 x 3000
+
+w=3
+  Tanh-fast:     0.0678413 s
+  Proposed-fast: 0.0484406 s
+  Otsu-fast: 0.0178957s
+  Sauvola:       0.0213871 s
+  Niblack:       0.0190382 s
+  Bernsen:       0.0181022 s
+
+w=7
+  Tanh-fast:     0.0692065 s
+  Proposed-fast: 0.0503836 s
+  Otsu-fast: 0.0200204s
+  Sauvola:       0.0476101 s
+  Niblack:       0.0447047 s
+  Bernsen:       0.0417168 s
+
+w=11
+  Tanh-fast:     0.0705433 s
+  Proposed-fast: 0.0542423 s
+  Otsu-fast: 0.0232806s
+  Sauvola:       0.0858065 s
+  Niblack:       0.0866907 s
+  Bernsen:       0.103099 s
+
+w=15
+  Tanh-fast:     0.0712642 s
+  Proposed-fast: 0.0524866 s
+  Otsu-fast: 0.0245981s
+  Sauvola:       0.145214 s
+  Niblack:       0.142935 s
+  Bernsen:       0.175738 s
+
+w=19
+  Tanh-fast:     0.0712834 s
+  Proposed-fast: 0.0531425 s
+  Otsu-fast: 0.0258301s
+  Sauvola:       0.226509 s
+  Niblack:       0.229023 s
+  Bernsen:       0.29245 s
+
+w=23
+  Tanh-fast:     0.0720601 s
+  Proposed-fast: 0.0555649 s
+  Otsu-fast: 0.0270523s
+  Sauvola:       0.342108 s
+  Niblack:       0.347502 s
+  Bernsen:       0.459666 s
+
+w=27
+  Tanh-fast:     0.073403 s
+  Proposed-fast: 0.0555807 s
+  Otsu-fast: 0.0278793s
+  Sauvola:       0.463233 s
+  Niblack:       0.456462 s
+  Bernsen:       0.580443 s
+
+w=31
+  Tanh-fast:     0.0658504 s
+  Proposed-fast: 0.0528217 s
+  Otsu-fast: 0.0238882s
+  Sauvola:       0.547058 s
+  Niblack:       0.552304 s
+  Bernsen:       0.62243 s
+
+w=35
+  Tanh-fast:     0.0649678 s
+  Proposed-fast: 0.0542592 s
+  Otsu-fast: 0.0225195s
+  Sauvola:       0.690547 s
+  Niblack:       0.698641 s
+  Bernsen:       0.892625 s
+
+Crop = 3500 x 3500
+
+w=3
+  Tanh-fast:     0.0931195 s
+  Proposed-fast: 0.0659131 s
+  Otsu-fast: 0.0242911s
+  Sauvola:       0.0283153 s
+  Niblack:       0.0271874 s
+  Bernsen:       0.0258201 s
+
+w=7
+  Tanh-fast:     0.0904143 s
+  Proposed-fast: 0.0658095 s
+  Otsu-fast: 0.0249126s
+  Sauvola:       0.0594334 s
+  Niblack:       0.0571592 s
+  Bernsen:       0.052957 s
+
+w=11
+  Tanh-fast:     0.090785 s
+  Proposed-fast: 0.0666489 s
+  Otsu-fast: 0.0244416s
+  Sauvola:       0.105993 s
+  Niblack:       0.104791 s
+  Bernsen:       0.121963 s
+
+w=15
+  Tanh-fast:     0.0889765 s
+  Proposed-fast: 0.0671238 s
+  Otsu-fast: 0.025341s
+  Sauvola:       0.176783 s
+  Niblack:       0.174986 s
+  Bernsen:       0.219596 s
+
+w=19
+  Tanh-fast:     0.0878019 s
+  Proposed-fast: 0.066757 s
+  Otsu-fast: 0.024816s
+  Sauvola:       0.268865 s
+  Niblack:       0.270606 s
+  Bernsen:       0.346352 s
+
+w=23
+  Tanh-fast:     0.0885616 s
+  Proposed-fast: 0.0690433 s
+  Otsu-fast: 0.0259729s
+  Sauvola:       0.39597 s
+  Niblack:       0.397213 s
+  Bernsen:       0.486278 s
+
+w=27
+  Tanh-fast:     0.0875193 s
+  Proposed-fast: 0.0692524 s
+  Otsu-fast: 0.0262301s
+  Sauvola:       0.53104 s
+  Niblack:       0.538687 s
+  Bernsen:       0.619343 s
+
+w=31
+  Tanh-fast:     0.0884115 s
+  Proposed-fast: 0.070411 s
+  Otsu-fast: 0.0271654s
+  Sauvola:       0.702866 s
+  Niblack:       0.706936 s
+  Bernsen:       0.776806 s
+
+w=35
+  Tanh-fast:     0.0893656 s
+  Proposed-fast: 0.0691505 s
+  Otsu-fast: 0.024088s
+  Sauvola:       0.867996 s
+  Niblack:       0.873525 s
+  Bernsen:       1.11053 s
+
+Crop = 4000 x 4000
+
+w=3
+  Tanh-fast:     0.121047 s
+  Proposed-fast: 0.0865424 s
+  Otsu-fast: 0.0346615s
+  Sauvola:       0.0379834 s
+  Niblack:       0.0363039 s
+  Bernsen:       0.0343271 s
+
+w=7
+  Tanh-fast:     0.117817 s
+  Proposed-fast: 0.0886168 s
+  Otsu-fast: 0.0335687s
+  Sauvola:       0.0764892 s
+  Niblack:       0.0738043 s
+  Bernsen:       0.0706692 s
+
+w=11
+  Tanh-fast:     0.113428 s
+  Proposed-fast: 0.0869509 s
+  Otsu-fast: 0.0329398s
+  Sauvola:       0.135055 s
+  Niblack:       0.134099 s
+  Bernsen:       0.158843 s
+
+w=15
+  Tanh-fast:     0.114573 s
+  Proposed-fast: 0.0885371 s
+  Otsu-fast: 0.033864s
+  Sauvola:       0.230268 s
+  Niblack:       0.227783 s
+  Bernsen:       0.286526 s
+
+w=19
+  Tanh-fast:     0.117314 s
+  Proposed-fast: 0.0869863 s
+  Otsu-fast: 0.0324649s
+  Sauvola:       0.349754 s
+  Niblack:       0.348724 s
+  Bernsen:       0.448941 s
+
+w=23
+  Tanh-fast:     0.118595 s
+  Proposed-fast: 0.0876436 s
+  Otsu-fast: 0.0339482s
+  Sauvola:       0.518027 s
+  Niblack:       0.513903 s
+  Bernsen:       0.635818 s
+
+w=27
+  Tanh-fast:     0.119635 s
+  Proposed-fast: 0.0880622 s
+  Otsu-fast: 0.0330988s
+  Sauvola:       0.688945 s
+  Niblack:       0.693055 s
+  Bernsen:       0.808346 s
+
+w=31
+  Tanh-fast:     0.122631 s
+  Proposed-fast: 0.0873406 s
+  Otsu-fast: 0.0323732s
+  Sauvola:       0.891772 s
+  Niblack:       0.889643 s
+  Bernsen:       1.00207 s
+
+w=35
+  Tanh-fast:     0.118945 s
+  Proposed-fast: 0.0909349 s
+  Otsu-fast: 0.0332236s
+  Sauvola:       1.1183 s
+  Niblack:       1.12166 s
+  Bernsen:       1.42683 s
